@@ -213,10 +213,10 @@ input:focus {
 }
 
 .cta-form div:last-child a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
   text-align: center;
-  background-color: #fff;
+  background-color: #098b64;
   padding: 1.6rem 3.2rem;
   border-radius: 5rem;
 }
