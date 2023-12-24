@@ -9,7 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./CSS/general.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
+
     <link rel="stylesheet" href="./CSS/queries.css" />
 
     <title>Travello | Travel with love</title>
@@ -36,13 +38,13 @@
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
-            <h2 class="primary-heading">
+            <h1 class="primary-heading">
               Travel Smarter with AI Personalized trips that fit your budget and
-              dreams.
-            </h2>
+              dreams
+            </h1>
             <p class="hero-text">
               Travel like a pro without the planning stress. AI optimizes your
-              route, finds the best deals, and keeps you organized.
+              route, finds the best deals, and keeps you organized
             </p>
             <div class="btn-box">
               <a href="#" class="start-plan">Start Planning</a>
@@ -51,6 +53,52 @@
           </div>
           <div class="hero-img-box">
             <img src="./Images/hero.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-planning">
+        <div class="plan">
+          <h2 class="secondary-heading">
+            Make a detailed travel plan within seconds
+          </h2>
+          <div class="cta">
+            <div class="cta-img-box" role="img" aria-label="places"></div>
+            <div class="cta-text-box">
+              <h2 class="cta-heading">Get a travel plan</h2>
+              <p class="cta-text">
+                Travel like a pro without the planning stress.
+              </p>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="from-location">Depart from</label>
+                  <input type="text" name="" id="from-location" />
+                </div>
+                <div>
+                  <label for="to-location">Travel to</label>
+                  <input type="text" name="" id="to-location" />
+                </div>
+                <div>
+                  <label for="date-from">From Date</label>
+                  <input type="date" name="" id="date-from" />
+                </div>
+                <div>
+                  <label for="date-to">From Date</label>
+                  <input type="date" name="" id="date-to" />
+                </div>
+                <div>
+                  <label for="person-count">No. of persons</label>
+                  <input type="number" name="" id="person-count" />
+                </div>
+                <div>
+                  <label for="budget">Budget</label>
+                  <input type="number" name="" id="Budget" />
+                </div>
+                <div>
+                  <a href="#">Start Planning</a>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -63,5 +111,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
