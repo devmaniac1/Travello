@@ -53,10 +53,13 @@
 }
 
 @media (max-width: 32em) {
+  html {
+    font-size: 40%;
+  }
   .hero {
     padding: 2.4rem 4.8rem;
   }
-  .hero-img-box{
+  .hero-img-box {
     display: none;
   }
 }
